@@ -71,13 +71,13 @@ export default {
     changeInfo (info = {}) {
       const { index } = this
 
-      this.$emit('changeInfo', {
+      this.$emit('change-info', {
         info,
         index
       })
     },
     delItem (index) {
-      this.$emit('delItem', index)
+      this.$emit('del-item', index)
     },
     getZoneStyle (val) {
       return `${(val || 0) * 100}%`

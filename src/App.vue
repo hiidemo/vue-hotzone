@@ -45,7 +45,7 @@ export default {
   name: 'app',
   data: function () {
     return {
-      image: 'https://haitao.nos.netease.com/EbrC2L4UuXFI1CPmWall%20o207T1705221905_1920_1080.jpg',
+      image: 'https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       zones: [{
         heightPer: 0.4374,
         leftPer: 0.1153,

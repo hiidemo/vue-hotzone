@@ -14,8 +14,8 @@
         :key="index"
         :index="index"
         :setting="zone"
-        @delItem="removeItem($event)"
-        @changeInfo="changeInfo($event)"
+        @del-item="removeItem($event)"
+        @change-info="changeInfo($event)"
       ></zone>
     </ul>
   </div>
@@ -72,7 +72,7 @@ export default {
       const index = this.zones.length - 1
 
       this.removeItem(index)
-      this.$emit('overRange', index)
+      this.$emit('over-range', index)
     },
     removeItem (index = this.zones.length - 1) {
       this.zones.splice(index, 1)
